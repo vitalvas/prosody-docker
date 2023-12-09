@@ -6,6 +6,10 @@ on:
       - '*/*'
       - master
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   build-base:
     runs-on: ubuntu-latest
